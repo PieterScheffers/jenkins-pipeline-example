@@ -1,0 +1,6 @@
+pipeline:
+  test:
+    image: node:latest
+    commands: 
+      - npm install
+      - npm test
